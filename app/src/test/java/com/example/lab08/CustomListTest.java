@@ -38,10 +38,10 @@ public class CustomListTest {
        CustomList list = new CustomList();
         City victoria = new City("Victoria", "British Columbia");
         list.addCity(victoria);
-        assertEquals(2, list.countCities());
+        assertEquals(1, list.countCities());
         City winnipeg = new City("Winnipeg", "Manitoba");
         list.addCity(winnipeg);
-        assertEquals(3, list.countCities());
+        assertEquals(2, list.countCities());
 
     }
 
